@@ -7,6 +7,10 @@ body {
   background: whitesmoke;
 }
 
+.hero-container {
+  background-image: url("images//Users/matthewchabalowski/repos/sign-up-form/images/halie-west-25xggax4bSA-unsplash.jpg");
+}
+
 .form-container {
   display: flex;
   background: white;
