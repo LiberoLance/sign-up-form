@@ -5,14 +5,17 @@
 
 body {
   background: whitesmoke;
+  display: flex;
 }
 
-.hero-container {
+.left-page {
   background-image: url("./images/halie-west-25xggax4bSA-unsplash.jpg");
+  text-align: center;
 }
 
-div.odin-container, p {
+div.odin-container p {
   color: white;
+  display: inline;
 }
 
 .form-container {
