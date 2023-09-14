@@ -11,6 +11,10 @@ body {
   background-image: url("./images/halie-west-25xggax4bSA-unsplash.jpg");
 }
 
+div.odin-container, p {
+  color: white;
+}
+
 .form-container {
   display: flex;
   background: white;
