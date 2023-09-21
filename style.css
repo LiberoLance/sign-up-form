@@ -21,6 +21,14 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
+  position: relative;
+}
+
+.left-page span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: white;
 }
 
 .left-page img {
@@ -64,12 +72,21 @@ div.odin-container p {
   flex-direction: column;
 }
 
-a:link, a:visited {
+#right-link:visited {
   color: darkgreen;
   text-decoration: underline;
-  cursor: auto;
+  
 }
 
-a:link:active, a:visited:active {
-  color: darkgreen;
+#right-link:link {
+  color: blue;
+}
+
+#left-link:link {
+  color: black;
+}
+
+#left-link:visited {
+  color: white;
+  text-decoration: underline;
 }
