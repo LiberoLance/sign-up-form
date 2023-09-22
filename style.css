@@ -81,6 +81,12 @@ input:focus {
   flex-direction: column;
 }
 
+#error-msg {
+  font-size .5rem;
+  color: red;
+  visibility: hidden;
+}
+
 .right-box {
   display: flex;
   flex-direction: column;
